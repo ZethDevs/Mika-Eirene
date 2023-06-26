@@ -485,7 +485,7 @@ const onPhotoReceived = async (ctx: Context, userId: number, photoId: string, re
         try {
             imgData = await qqRequest(config.mode, telegramFileData);
         } catch (e) {
-            if ((e as Error).toString().includes('Face not found')) { // TODO: it shouldn't rely on the text
+            if ((e as Error).toString().includes('Face not found please send again')) { // TODO: it shouldn't rely on the text
                 console.log('Face not found, trying to hack for ' + userId);
                 imgData = await qqRequest(config.mode, (await faceHack(telegramFileData)));
             } else {
