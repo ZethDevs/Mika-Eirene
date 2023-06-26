@@ -3,7 +3,7 @@ A Telegram bot for making anime-styled pictures and videos from your source.
 
 It's a simple bridge between Telegram and https://h5.tu.qq.com/web/ai-2d/cartoon/index
 
-Demo: https://t.me/qq_neural_anime_bot
+Demo: https://t.me/MikaEirene_bot
 
 ![Example](example.jpg)
 
@@ -44,7 +44,7 @@ It's almost impossible to find free alive proxies. Don't waste your time searchi
 # Notes
 - Probably the whole thing is going to break soon anyway.
 - Fork it and make your own version, because I don't think that I'm going to support it in the future.
-- Contact me at Telegram: https://t.me/royvolkov
+- Contact me at Telegram: https://t.me/NeithSchneider
 
 # Upgrading
 Don't forget to always run `npm install`
